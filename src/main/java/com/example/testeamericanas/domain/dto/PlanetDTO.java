@@ -14,13 +14,13 @@ public class PlanetDTO {
     private int id;
 
     @NotNull
-    private String nome;
+    private String name;
 
     @NotNull
-    private String clima;
+    private String weather;
 
     @NotNull
-    private String terreno;
+    private String terrain;
 
     @NotNull
     private int movieAppearances;

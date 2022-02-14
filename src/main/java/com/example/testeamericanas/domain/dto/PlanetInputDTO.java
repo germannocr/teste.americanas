@@ -11,16 +11,16 @@ import org.jetbrains.annotations.NotNull;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PlanetInputDTO {
     @NotNull
-    @JsonProperty("nome")
-    private String nome;
+    @JsonProperty("name")
+    private String name;
 
     @NotNull
-    @JsonProperty("clima")
-    private String clima;
+    @JsonProperty("weather")
+    private String weather;
 
     @NotNull
-    @JsonProperty("terreno")
-    private String terreno;
+    @JsonProperty("terrain")
+    private String terrain;
 
     @NotNull
     @JsonProperty("movieAppearances")

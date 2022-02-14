@@ -51,7 +51,7 @@ public class PlanetController {
 
     @PostMapping(value = "/create")
     @ResponseStatus(HttpStatus.CREATED)
-    public void createPlanet(@RequestBody PlanetInputDTO planetInputDTO) {
+    public void createPlanet(@RequestBody PlanetInputDTO planetInputDTO) throws Exception {
         planetService.createPlanet(planetInputDTO);
     }
 
