@@ -1,6 +1,6 @@
 package com.example.testeamericanas.controller;
 
-import com.example.testeamericanas.domain.converter.PlanetConverter;
+import com.example.testeamericanas.converter.PlanetConverter;
 import com.example.testeamericanas.domain.dto.PlanetDTO;
 import com.example.testeamericanas.domain.dto.PlanetInputDTO;
 import com.example.testeamericanas.domain.model.Planet;

@@ -1,4 +1,4 @@
-package com.example.testeamericanas.domain.converter;
+package com.example.testeamericanas.converter;
 
 import com.example.testeamericanas.domain.dto.PlanetDTO;
 import com.example.testeamericanas.domain.model.Planet;
@@ -8,7 +8,7 @@ import org.mapstruct.Named;
 
 import java.util.List;
 
-@Mapper(componentModel = "spring", uses = {})
+@Mapper(componentModel = "spring")
 public interface PlanetConverter {
 
     @Named("toPlanedDto")
