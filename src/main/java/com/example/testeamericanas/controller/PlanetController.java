@@ -55,7 +55,7 @@ public class PlanetController {
         planetService.createPlanet(planetInputDTO);
     }
 
-    @PostMapping(value = "/{planetId}")
+    @DeleteMapping(value = "/{planetId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deletePlanet(@PathVariable long planetId) throws Exception {
         planetService.deletePlanet(planetId);

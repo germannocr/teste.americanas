@@ -10,18 +10,9 @@ import org.jetbrains.annotations.NotNull;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PlanetDTO {
 
-    @NotNull
     private int id;
-
-    @NotNull
     private String name;
-
-    @NotNull
     private String weather;
-
-    @NotNull
     private String terrain;
-
-    @NotNull
     private int movieAppearances;
 }
